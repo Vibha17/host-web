@@ -342,7 +342,7 @@ body{
     }
 }
 
-#myModal{
+#popup{
     display: none; 
     position: fixed; 
     z-index: 1; 
@@ -406,3 +406,26 @@ body{
     to {transform: scale(1)}
   }
 
+.sblog:hover{
+    cursor: pointer;
+    transform: scale(1.1,1.1);
+}
+
+.icon:hover .clickit{
+    visibility: visible;
+  }
+
+.clickit{
+    visibility: hidden;
+  width: 400px;
+  background-color: #322C2B;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 1px;
+  position: relative;
+  z-index: 1;
+  top: 100%;
+  left: 50%;
+  margin-left: -60px;
+}

@@ -17,7 +17,7 @@ fetch(api)
         var sdates = document.getElementsByClassName("stext");
         sdates[id].innerText = data[id].date;
 
-        var modal = document.getElementById('myModal');
+        var modal = document.getElementById('popup');
         var img =[];
         img = document.getElementsByClassName("sblog");
     var modalImg = document.getElementById("img01");
